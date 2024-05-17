@@ -621,7 +621,7 @@ def threshold_determination(radius, noise_std, patch_size, fov, matrix_size, n_p
         _, signal_present = disk_phantom(fov, (radius,radius), matrix_size=matrix_size, intensity=contrast, noise_std=noise_std)
         signal_present = signal_present[matrix_size[0]//2-patch_size:matrix_size[0]//2+patch_size, matrix_size[1]//2-patch_size:matrix_size[1]//2+patch_size]
         signal_present = signal_present - np.mean(signal_present) # normalization
-
+        signal_present = np.real(signal_present)
         # correlation
         corr_sp[n] = np.amax(sp.signal.correlate2d(signal_present, template, boundary='wrap', mode='same'))
       
@@ -631,9 +631,8 @@ def threshold_determination(radius, noise_std, patch_size, fov, matrix_size, n_p
         # ifft2 compute image
         signal_absent = np.fft.fftshift(np.fft.ifft2(np.fft.ifftshift(kspace))) * np.sqrt(np.prod(kspace.shape))
         signal_absent = signal_absent[matrix_size[0]//2-patch_size:matrix_size[0]//2+patch_size, matrix_size[1]//2-patch_size:matrix_size[1]//2+patch_size]
-        # signal_absent = np.abs(signal_absent)
         signal_absent = (signal_absent - np.mean(signal_absent)) # normalization
-        
+        signal_absent = np.real(signal_absent)
         # correlation
         corr_sa[n] = np.amax(sp.signal.correlate2d(signal_absent, template, boundary='wrap', mode='same'))
  

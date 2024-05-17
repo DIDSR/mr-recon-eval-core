@@ -76,7 +76,8 @@ res = np.abs(res)
 pixel_size, n_res_line = high_contrast_resolution(res, fov, radius=radius_res, center=center, array=(4,4), plot=False)
 print('high contrast resolution, number of resolved line: ', n_res_line)
 
-# low contrast detectability    
+# low contrast detectability
+print('Calculating low contrast detectability measurement ...')
 # threshold
 for r in range(2,7):
     for noise in np.arange(0,0.05,0.01):
