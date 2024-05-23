@@ -17,11 +17,16 @@ Fei Tan, fei.tan@fda.hhs.gov
 
 ## Start Here
 
-1. Install python 3.11.3 or any version greater (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors but maybe compatible with a lower version ofpython.)
+**Requirements**
 
-2. Clone this repository and navigate to its root directory
+  Python 3.11.3 or any version greater
 
-3. Install the required dependencies 
+  Note: the code was tested on python 3.11.3 and 3.11.5 by the authors but maybe compatible with a lower version of python.)
+
+**Installation**
+1. Clone this repository and navigate to its root directory
+
+2. Install the required dependencies 
 
    ```pip install numpy matplotlib scikit-image scipy spyder```
 
@@ -60,12 +65,11 @@ Install dependencies
 ```conda install numpy matplotlib scikit-image scipy spyder``` -->
 
 
-## Demo
-Run Demo in Spyder
+**Run demo**
 
 Run ```spyder``` and then open the code "demo.py" to run the demo code.
 
-**Expected Output**
+Expected Output
 
 <img src="https://github.com/DIDSR/mr-recon-eval-core/assets/162378584/385842cf-2eca-46ea-ab8e-a1b7eebf3bbc" width="200">
 <img src="https://github.com/DIDSR/mr-recon-eval-core/assets/162378584/82f16b3e-b37e-45fa-abd6-c01b010c04a4" width="200">
@@ -89,7 +93,7 @@ low contrast detectability number of complete spokes:  9
 - **How to cite** 
    Fei Tan, Jana Delfino, Rongping Zeng, "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". BioEngineering, Volxx, Pgxx, 2024 (Under review)
 
-## Key Functions: Create Digital Phantom (digital_phantom.py)
+## Key Functions I: Create Digital Phantom (digital_phantom.py)
 Creates disk, resolution, low-contrast phantom.
 
 
@@ -146,7 +150,7 @@ Creates disk, resolution, low-contrast phantom.
 - `kspace_lc` (ndarray): K-space of low contrast phantom.
 - `lc` (ndarray): Image of low contrast phantom.
 
-## Key Functions: Evaluation Metrics (`evaluation_metrics.py`)
+## Key Functions II: Evaluation Metrics (`evaluation_metrics.py`)
 
 ### geometric_accuracy
 **Description:** Measure the geometric accuracy of a disk phantom.
