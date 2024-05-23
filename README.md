@@ -17,7 +17,7 @@ Fei Tan, fei.tan@fda.hhs.gov
 
 ## Start Here
 
-1. Install python 3.11.3 or any version greater (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors.)
+1. Install python 3.11.3 or any version greater (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors but maybe compatible with a lower version ofpython.)
 
 2. Clone this repository and navigate to its root directory
 
