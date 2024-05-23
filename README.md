@@ -5,17 +5,48 @@ placeholder for link to paper
 <img src="https://github.com/fei-tan-fda/mr-recon-eval/assets/162378584/04af8d97-4be4-419b-9c00-c7845bd5bead" width="500">
 
 ## Summary
-This repository contains the open-source code for the paper titled "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". It consists of:
+This repository contains the open-source Python code for the paper titled "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". It consists of:
 
-1. Digital phantom creation (digital_phantom.py), creating 3 types of phantoms in k-space: disk, resolution, low-contrast phantom
-2. Evaluation metrics (evaluation_metrics.py), including geometric accuracy, intensity uniformity, percentage ghosting, sharpness, SNR, high contrast resolution, and low contrast detectability.
+1. Digital phantom creation (digital_phantom.py): creating 3 types of phantoms in k-space: disk, resolution, low-contrast phantom
+2. Metrics evaluation (evaluation_metrics.py): geometric accuracy, intensity uniformity, percentage ghosting, sharpness, SNR, high contrast resolution, and low contrast detectability.
 
 **Contacts:**
 
-Fei Tan, fei.tan@fda.hhs.gov  
 Rongping Zeng, rongping.zeng@fda.hhs.gov
+Fei Tan, fei.tan@fda.hhs.gov  
 
-## Conda Environment Setup
+## Start Here
+
+1. Install python 3.11.3 or any version greater (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors.)
+
+2. Clone this repository and navigate to its root directory
+
+3. Install the required dependencies 
+
+   ```pip install numpy matplotlib scikit-image scipy spyder```
+
+
+<!-- 
+**if using virtual enviroment**
+Create a virtual environtment named eval (or any name of your choosing) 
+
+```python -m venv <chosen_env_name>```
+
+Activate the environment (Ensure you replace <chosen_env_name> with your chosen venv name)
+
+Windows: ```<chosen_env_name>\Scripts\activate```
+Unix\Linux: ```source <chosen_env_name>/bin/activate```
+
+Install the required dependencies 
+
+```pip install numpy matplotlib scikit-image scipy spyder```
+
+To deactivate
+
+```deactivate```
+
+**If using Anaconda**
+
 Create conda environment
 
 ```conda create -n eval python=3.11.5```
@@ -26,12 +57,13 @@ Activate conda environment
 
 Install dependencies
 
-```conda install numpy matplotlib scikit-image scipy spyder```
+```conda install numpy matplotlib scikit-image scipy spyder``` -->
+
 
 ## Demo
-**Run Demo in Spyder**
+Run Demo in Spyder
 
-Start Spyder from the commandline ```spyder``` and run the demo script: demo.py
+Run ```spyder``` and then open the code "demo.py" to run the demo code.
 
 **Expected Output**
 
@@ -46,10 +78,16 @@ percentage ghosting:  0.0014833648906810717
 sharpness fwhm:  1.7792694914919003 sharpness slope:  0.2886013210608282
 SNR dual:  9.686461713187088
 high contrast resolution, number of resolved line:  (4, 4)
-low contrast detectability number of complete spokes:  8
+Calculating low contrast detectability measurement ...
+low contrast detectability number of complete spokes:  9
 ```
 
-**The exact numbers will be different due to random noise.
+**The exact numbers will be different due to random noise in each realization.
+
+## Contribute
+
+- **How to cite** 
+   Fei Tan, Jana Delfino, Rongping Zeng, "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". BioEngineering, Volxx, Pgxx, 2024 (Under review)
 
 ## Key Functions: Create Digital Phantom (digital_phantom.py)
 Creates disk, resolution, low-contrast phantom.
