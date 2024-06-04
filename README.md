@@ -10,10 +10,7 @@ This repository contains the open-source Python code for the paper titled "Evalu
 1. Digital phantom creation (digital_phantom.py): creating 3 types of phantoms in k-space: disk, resolution, low-contrast phantom
 2. Metrics evaluation (evaluation_metrics.py): geometric accuracy, intensity uniformity, percentage ghosting, sharpness, SNR, high contrast resolution, and low contrast detectability.
 
-**Contacts:**
 
-Rongping Zeng, rongping.zeng@fda.hhs.gov
-Fei Tan, fei.tan@fda.hhs.gov  
 
 Disclaimer
 ----------
@@ -95,4 +92,7 @@ low contrast detectability number of complete spokes:  9
    Fei Tan, Jana Delfino, Rongping Zeng, "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". BioEngineering, Volxx, Pgxx, 2024 (Under review)
 on. Default is (4,4).
 
+## Contacts
 
+Rongping Zeng, rongping.zeng@fda.hhs.gov
+Fei Tan, fei.tan@fda.hhs.gov  
