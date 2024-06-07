@@ -1,8 +1,9 @@
 # MR Recon Eval: Digital Image Quality Phantoms and Automated Evaluation Metrics for Assessing Machine Learning-Based MRI Reconstruction
 
 placeholder for link to paper
+![graphical_abstract](https://github.com/DIDSR/mr-recon-eval-core/assets/37195678/e8eedb5d-75b4-4b70-991c-c71e2af018e1)
 
-<img src="https://github.com/fei-tan-fda/mr-recon-eval/assets/162378584/04af8d97-4be4-419b-9c00-c7845bd5bead" width="500">
+<img src="https://github.com/DIDSR/mr-recon-eval-core/assets/37195678/e8eedb5d-75b4-4b70-991c-c71e2af018e1" width="500">
 
 ## Summary
 This repository contains the open-source Python code for the paper titled "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms". It consists of:
