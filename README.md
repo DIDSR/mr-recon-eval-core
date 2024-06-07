@@ -1,6 +1,5 @@
 # MR Recon Eval: Digital Image Quality Phantoms and Automated Evaluation Metrics for Assessing Machine Learning-Based MRI Reconstruction
 
-placeholder for link to paper
 
 <img src="https://github.com/DIDSR/mr-recon-eval-core/assets/37195678/e8eedb5d-75b4-4b70-991c-c71e2af018e1" width="800">
 
