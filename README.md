@@ -88,7 +88,7 @@ low contrast detectability number of complete spokes:  9
 ## Reference
 
 - **How to cite** 
-   Tan, Fei, Jana G. Delfino, and Rongping Zeng. 2024. "Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms" Bioengineering 11, no. 6: 614. https://doi.org/10.3390/bioengineering11060614
+   Tan F, Delfino JG, Zeng R. Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms. Bioengineering. 2024; 11(6):614. https://doi.org/10.3390/bioengineering11060614
 
 ## Contacts
 
