@@ -73,14 +73,16 @@ Run ```spyder``` and then open the code "demo.py" to run the demo code.
 <img src="https://github.com/DIDSR/mr-recon-eval-core/assets/162378584/58300a3b-b9f5-4450-9fc6-e9755edd3490" width="200">
 
 ```
-geometric accuracy, maximum percentage error:  0.0004787829883421062
-intensity uniformity:  94.42621651886563
-percentage ghosting:  0.0014833648906810717
-sharpness fwhm:  1.7792694914919003 sharpness slope:  0.2886013210608282
-SNR dual:  9.686461713187088
-high contrast resolution, number of resolved line:  (4, 4)
-Calculating low contrast detectability measurement ...
-low contrast detectability number of complete spokes:  9
+Geometric accuracy (maximum percentage error): 0.0003
+Intensity uniformity: 94.2322
+Percentage ghosting: 0.0009
+Sharpness fwhm: 1.5268 Sharpness slope: 0.3233
+SNR dual: 11.3576
+High contrast resolution:
+         number of resolved vertical lines in the upper resolution block:  4
+         number of resolved horizontal lines in the lower resolution block:  4
+Calculating low contrast detectability measurement (may take a while) ...
+Low contrast detectability (number of complete spokes):  9
 ```
 
 **The exact numbers will be different due to random noise in each realization.
