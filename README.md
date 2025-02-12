@@ -26,11 +26,6 @@ This software and documentation (the "Software") were developed at the Food and 
 
    ```pip install numpy matplotlib scikit-image scipy spyder```
 
-   Optionally, you may include [Spyder](https://en.wikipedia.org/wiki/Spyder_(software)), a python programming IDE as follows,
-   
-   ```pip install numpy matplotlib scikit-image scipy spyder```
-
-
 <!-- 
 **if using virtual enviroment**
 Create a virtual environtment named eval (or any name of your choosing) 
