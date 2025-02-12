@@ -22,8 +22,12 @@ This software and documentation (the "Software") were developed at the Food and 
 
 2. Clone this repository and navigate to its root directory
 
-3. Install the required dependencies 
+3. Install the required dependencies in apPython enviroment 
 
+   ```pip install numpy matplotlib scikit-image scipy spyder```
+
+   Optionally, you may include [Spyder](https://en.wikipedia.org/wiki/Spyder_(software)),  a python programming IDE as follows,
+   
    ```pip install numpy matplotlib scikit-image scipy spyder```
 
 
@@ -62,9 +66,7 @@ Install dependencies
 
 
 ## Demo
-Run Demo in Spyder
-
-Run ```spyder``` and then open the code "demo.py" to run the demo code.
+Run demo.py in a python enviroemnt.
 
 **Expected Output**
 
@@ -85,7 +87,7 @@ Calculating low contrast detectability measurement (may take a while) ...
 Low contrast detectability (number of complete spokes):  9
 ```
 
-**The exact numbers will be different due to random noise in each realization.
+**The exact values will be different in each realization due to random noise in the generated phantom images. The generated phantom images will be saved to an ouptut folder.
 
 ## Reference
 
