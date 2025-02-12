@@ -22,11 +22,11 @@ This software and documentation (the "Software") were developed at the Food and 
 
 2. Clone this repository and navigate to its root directory
 
-3. Install the required dependencies in apPython enviroment 
+3. Install the required dependencies in a python enviroment 
 
    ```pip install numpy matplotlib scikit-image scipy spyder```
 
-   Optionally, you may include [Spyder](https://en.wikipedia.org/wiki/Spyder_(software)),  a python programming IDE as follows,
+   Optionally, you may include [Spyder](https://en.wikipedia.org/wiki/Spyder_(software)), a python programming IDE as follows,
    
    ```pip install numpy matplotlib scikit-image scipy spyder```
 
