@@ -66,7 +66,7 @@ Install dependencies
 
 
 ## Demo
-Run demo.py in a python enviroemnt.
+Run demo.py in a python enviroment.
 
 **Expected Output**
 
