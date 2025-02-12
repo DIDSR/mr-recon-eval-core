@@ -24,7 +24,7 @@ This software and documentation (the "Software") were developed at the Food and 
 
 3. Install the required dependencies in a python enviroment 
 
-   ```pip install numpy matplotlib scikit-image scipy spyder```
+   ```pip install numpy matplotlib scikit-image scipy```
 
 <!-- 
 **if using virtual enviroment**
