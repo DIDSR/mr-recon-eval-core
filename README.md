@@ -82,7 +82,7 @@ Calculating low contrast detectability measurement (may take a while) ...
 Low contrast detectability (number of complete spokes):  9
 ```
 
-**The exact values will be different in each realization due to random noise in the generated phantom images. The generated phantom images will be saved to an ouptut folder.
+**The exact values will be different in each realization due to random noise in the generated phantom images. The evaluation result and the generated phantom images will be saved to an "ouptut" folder.
 
 ## Reference
 
