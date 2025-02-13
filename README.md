@@ -22,6 +22,8 @@ This software and documentation (the "Software") were developed at the Food and 
 
 2. Clone this repository and navigate to its root directory
 
+    ```git clone https://github.com/DIDSR/mr-recon-eval-core.git```
+   
 3. Install the required dependencies in a python enviroment 
 
    ```pip install numpy matplotlib scikit-image scipy```
@@ -61,7 +63,7 @@ Install dependencies
 
 
 ## Demo
-Run demo.py in a python enviroment.
+Run ```demo.py``` in a python enviroment.
 
 **Expected Output**
 
@@ -82,7 +84,7 @@ Calculating low contrast detectability measurement (may take a while) ...
 Low contrast detectability (number of complete spokes):  9
 ```
 
-**The exact values will be different in each realization due to random noise in the generated phantom images. The evaluation result and the generated phantom images will be saved to an "ouptut" folder.
+The exact values will be different in each run due to random noise in the generated phantom images. The evaluation result and the generated phantom images will be saved to an ```ouptut```folder.
 
 ## Reference
 
