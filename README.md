@@ -18,7 +18,9 @@ This software and documentation (the "Software") were developed at the Food and 
 
 ## Start Here
 
-1. Install python 3.11.3 or any version greater (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors but the user can check the compatibiity with a lower version of python.)
+1. Install python 3.11.3 or any version greater
+
+   (Note: the code was tested on python 3.11.3 and 3.11.5 by the authors but the user can check the compatibiity with a lower version of python.)
 
 2. Clone this repository and navigate to its root directory
 
