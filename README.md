@@ -1,4 +1,4 @@
-# MR Recon Eval: Digital Image Quality Phantoms and Automated Evaluation Metrics for Assessing Machine Learning-Based MRI Reconstruction
+# MRI-IQ-ETK: Digital MRI Test Phantoms and Automated Image Quality Evaluation Toolkit for Assessing MRI Image Reconstruction Methods
 
 
 <img src="https://github.com/DIDSR/mr-recon-eval-core/assets/37195678/e8eedb5d-75b4-4b70-991c-c71e2af018e1" width="800">
@@ -88,9 +88,11 @@ Low contrast detectability (number of complete spokes):  9
 
 The exact values will be different in each run due to random noise in the generated phantom images. The evaluation result and the generated phantom images will be saved to an ```ouptut```folder.
 
-## Reference
+## How to Cite
 
-- **How to cite** 
+- **Regulatory Science Tool (RST)** 
+   tbd
+- **Paper** 
    Tan F, Delfino JG, Zeng R. Evaluating Machine Learning-Based MRI Reconstruction Using Digital Image Quality Phantoms. Bioengineering. 2024; 11(6):614. https://doi.org/10.3390/bioengineering11060614
 
 ## Contacts
